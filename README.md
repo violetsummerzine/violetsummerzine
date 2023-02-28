@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @violetsummerzine
+- 👋 Hi, I’m Violet Summer
 - 👀 I’m interested in ...smart contracts, nfts, wildlife, Bravo's real housewives& & adventure travel
 - 🌱 I’m currently learning ...python 
 - 💞️ I’m looking to collaborate on ... media and nft projects
