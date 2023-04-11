@@ -3,7 +3,7 @@
 - ⚙️  I'm currently building decentralized content management software 
 - 🌱 I’m currently learning ...data modeling 
 - 💞️ I’m looking to collaborate on ... decentralized data, content, lifestyle
-- 📫 How to reach me ...@thevioletverse on Twitter
+- 📫 How to reach me ...gm@violetverse.io
 
 <!---
 violetsummerzine/violetsummerzine is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
