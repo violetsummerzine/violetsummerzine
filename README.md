@@ -1,7 +1,8 @@
 - 👋 Hi, I’m Violet Summer
-- 👀 I’m interested in ...smart contracts, nfts, wildlife, Bravo's real housewives& & adventure travel
-- 🌱 I’m currently learning ...data modeling
-- 💞️ I’m looking to collaborate on ... decentralized content 
+- 👀 I’m interested in ...smart contracts, nfts, wildlife, Bravo & spacetime travel
+- ⚙️  I'm currently building decentralized content management software 
+- 🌱 I’m currently learning ...data modeling 
+- 💞️ I’m looking to collaborate on ... decentralized data, content, lifestyle
 - 📫 How to reach me ...@thevioletverse on Twitter
 
 <!---
