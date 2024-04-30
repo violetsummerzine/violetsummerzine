@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Violet Summer
 - 👀 I’m interested in ...smart contracts, nfts, wildlife, Bravo & spacetime travel
-- ⚙️  I'm currently building decentralized content management software 
+- ⚙️  I'm currently building w/ flow Blockchain 
 - 🌱 I’m currently learning ...trading  
 - 💞️ I’m looking to collaborate on ... decentralized data, content, fashion tech
 - 📫 How to reach me ...gm@violetverse.io
