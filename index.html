@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Campaign Collaboration Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>Campaign Collaboration Hub</h1>
+      <p>Track edits, collect feedback, and align teams faster.</p>
+    </div>
+    <div class="status-wrap">
+      <label for="campaignStatus">Status</label>
+      <select id="campaignStatus">
+        <option>Drafting</option>
+        <option>In Review</option>
+        <option>Revisions in Progress</option>
+        <option>Ready for Approval</option>
+        <option>Approved</option>
+        <option>Scheduled</option>
+        <option>Launched</option>
+        <option>Postmortem</option>
+      </select>
+    </div>
+  </header>
+
+  <main class="grid">
+    <section class="card">
+      <h2>Campaign Brief</h2>
+      <form id="briefForm" class="form-grid">
+        <input name="campaign" placeholder="Campaign Name" required />
+        <input name="product" placeholder="Product / Feature" required />
+        <input name="objective" placeholder="Objective" required />
+        <input name="kpi" placeholder="Primary KPI" required />
+        <input name="audience" placeholder="Audience Segment" required />
+        <input name="message" placeholder="Core Message" required />
+        <input name="launchDate" type="date" required />
+        <input name="dri" placeholder="DRI (Owner)" required />
+        <button type="submit">Save Brief</button>
+      </form>
+      <div id="briefPreview" class="preview muted">No brief saved yet.</div>
+    </section>
+
+    <section class="card">
+      <h2>Feedback Queue</h2>
+      <form id="feedbackForm" class="form-grid">
+        <input name="section" placeholder="Section" required />
+        <input name="reviewer" placeholder="Reviewer" required />
+        <select name="priority">
+          <option>P0</option><option>P1</option><option>P2</option>
+        </select>
+        <textarea name="comment" placeholder="[Type] [Priority] [Section] Suggestion + Why" required></textarea>
+        <button type="submit">Add Feedback</button>
+      </form>
+      <table>
+        <thead>
+          <tr><th>ID</th><th>Section</th><th>Reviewer</th><th>Priority</th><th>Comment</th><th>Status</th><th></th></tr>
+        </thead>
+        <tbody id="feedbackTable"></tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>Decision Log</h2>
+      <form id="decisionForm" class="form-grid">
+        <input name="decision" placeholder="Decision" required />
+        <input name="owner" placeholder="Owner" required />
+        <input name="rationale" placeholder="Rationale" required />
+        <input name="assets" placeholder="Impacted Assets" required />
+        <button type="submit">Add Decision</button>
+      </form>
+      <table>
+        <thead><tr><th>Date</th><th>Decision</th><th>Owner</th><th>Rationale</th><th>Assets</th></tr></thead>
+        <tbody id="decisionTable"></tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
