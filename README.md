@@ -1,64 +1,86 @@
-# Campaign Collaboration Hub (Vercel + Airtable)
+# Hi, I'm Melissa
 
-A frontend tool for writers and marketing teams to collaborate on campaigns with shared briefs, feedback tracking, and decision logging.
+### Bridging technology, product, and storytelling.
 
-## Stack
-- **Frontend:** HTML/CSS/Vanilla JS
-- **Hosting:** Vercel
-- **Data:** Airtable
-- **Backend API:** Vercel Serverless Function (`/api/data`)
+I'm a technologist, product storyteller, and community builder working at the intersection of **AI, data, Web3, and developer ecosystems.**
 
-## Project structure
-- `index.html` – UX interface
-- `styles.css` – styling
-- `app.js` – client behavior + API calls
-- `api/data.js` – Airtable proxy (GET/POST/PATCH/DELETE)
-- `vercel.json` – Vercel config
+I help engineering teams translate complex technology into products, narratives, and experiences that people can understand, adopt, and build upon.
 
-## Airtable setup
-Create a base with 3 tables:
+With 10+ years of experience across media, technology, and marketing, I've worked with startups, established brands, and open-source communities to bring emerging technologies to market.
 
-### 1) `Feedback`
-Fields:
-- `FBID` (single line text)
-- `Section` (single line text)
-- `Reviewer` (single line text)
-- `Priority` (single select: P0/P1/P2)
-- `Comment` (long text)
-- `Status` (single select: Open/Accepted/Rejected/Needs Clarification)
+I'm particularly interested in how AI, decentralized infrastructure, and open-source technologies are reshaping the way we create, communicate, and exchange value.
 
-### 2) `Decisions`
-Fields:
-- `Date` (date)
-- `Decision` (long text)
-- `Owner` (single line text)
-- `Rationale` (long text)
-- `Assets` (single line text)
+### 🔭 What I'm Working On
 
-### 3) `Briefs`
-Fields:
-- `Campaign`
-- `Product`
-- `Objective`
-- `KPI`
-- `Audience`
-- `CoreMessage`
-- `LaunchDate` (date)
-- `DRI`
-- `Status`
+- Exploring machine learning, data science, and AI applications.
+- Building with Python, JavaScript, and Next.js.
+- Researching AI infrastructure, human data, and the economics of digital contribution.
+- Experimenting with data analytics, predictive modeling, and visualization.
+- Exploring the intersection of open-source technology, digital ownership, and creator economies.
 
-## Vercel environment variables
-In Vercel project settings, add:
-- `AIRTABLE_API_KEY`
-- `AIRTABLE_BASE_ID`
-- `AIRTABLE_FEEDBACK_TABLE` (optional, defaults to `Feedback`)
-- `AIRTABLE_DECISION_TABLE` (optional, defaults to `Decisions`)
-- `AIRTABLE_BRIEF_TABLE` (optional, defaults to `Briefs`)
+### 🛠️ Technologies & Tools
 
-## Deploy on Vercel
-1. Push this repo to GitHub.
-2. Import it into Vercel.
-3. Add the environment variables above.
-4. Deploy.
+**Languages & Development**
+- Python
+- JavaScript
+- SQL
+- Next.js
 
-Your frontend will call `/api/data?type=feedback|decisions|brief` and persist directly to Airtable.
+**Data & AI**
+- Machine Learning
+- Data Science
+- Regression Modeling
+- Data Analytics
+- Snowflake
+- Power BI
+
+**Web3 & Infrastructure**
+- Blockchain
+- Smart Contracts
+- EVM
+- Polygon
+- Flow
+- APIs
+- Open Payments
+
+**Tools & Platforms**
+- GitHub
+- Jupyter Notebook
+- HubSpot
+- Alchemy
+- Vercel
+- Power Bi
+- N8N
+
+### 💡 A Little About My Background
+
+- Founded [Violet Verse](https://violetverse.io), a Web3-powered CMS and marketplace for fashion media.
+- Built and launched a decentralized application on a Layer 1 blockchain.
+- Distributed 400K+ ecosystem tokens and helped grow a community of 1,700+ members.
+- Worked in developer relations and open-source ecosystem development.
+- Led technical content, marketing, and ecosystem initiatives for emerging technology organizations.
+- Produced digital media experiences and campaigns for brands including Nike, Sephora, and Cash App.
+- Contributed to the intersection of digital publishing, fashion, blockchain, and creator economies.
+
+### 🌱 Currently Learning
+
+I'm continuously expanding my technical toolkit, with a particular interest in:
+
+- Applied machine learning
+- AI systems and infrastructure
+- Data engineering and analytics
+- Python development
+- Predictive modeling
+
+### 🤝 Let's Connect
+
+I'm interested in collaborating on projects involving AI, open-source technology, developer ecosystems, data, and emerging infrastructure.
+
+- **Portfolio:** [Your Website]
+- **LinkedIn:** [Your LinkedIn]
+- **Writing:** [Your Substack]
+- **GitHub:** You're already here!
+
+---
+
+*Technology is only as powerful as our ability to make it useful, accessible, and understood.*
